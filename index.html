@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dragon Website</title>
+    <style>
+        h1{
+            color: rgb(251, 99, 124);
+        }
+        body {
+            text-align: center;
+            background: greenyellow;
+        }
+        .saying {
+            color: black;
+        }
+
+        .saying span {
+            font-size: 30px;
+        }
+        #name{
+            text-decoration: underline;
+        }
+
+        .parent{
+            background: white;
+        }
+
+        img {
+            width: 400px;
+            transition: all 1s;
+        }
+
+        img:hover {
+            filter: invert(1);
+            filter:saturate(2);
+            transform: translate(100px, 100px);
+    
+        }
+        button {
+            position: absolute;
+            top: 50%;
+            left:50% ;
+            width:100px;
+            height: 100px;
+            background: rgb(226, 216, 189);
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dragon Website</h1>
+    <p>roar</p>
+    <p class="saying"> Explanation of Dragon <span>HELLO</span></p>
+    <p class="saying"> Constant resoning</p>
+    <img src="img/ord.jpg" alt="Dragon">
+    <h2 id="name">Pizza's measurement</h2>
+    <div class="parent">
+        <button id="fire-button">fire</button>
+        <script src="script.js"></script>
+        <p>child 1</p>
+        <p>brother</p>
+    </div>
+</body>
+</html>
